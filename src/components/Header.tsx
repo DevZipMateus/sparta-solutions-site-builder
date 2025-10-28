@@ -43,21 +43,21 @@ const Header = () => {
         isScrolled ? "bg-background/95 backdrop-blur-md shadow-soft" : "bg-background"
       }`}
     >
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           <button
             onClick={() => scrollToSection("hero")}
-            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
+            className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity"
           >
-            <img src={logoSparta} alt="Sparta Solutions" className="h-12 w-auto" />
+            <img src={logoSparta} alt="Sparta Solutions" className="h-10 sm:h-12 w-auto" />
           </button>
 
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-4 lg:gap-8">
             {menuItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-foreground hover:text-primary transition-colors font-medium"
+                className="text-sm lg:text-base text-foreground hover:text-primary transition-colors font-medium"
               >
                 {item.label}
               </button>
@@ -65,7 +65,8 @@ const Header = () => {
             <Button
               onClick={() => scrollToSection("contato")}
               variant="default"
-              className="bg-primary hover:bg-primary-hover"
+              size="sm"
+              className="bg-primary hover:bg-primary-hover lg:px-6"
             >
               Fale conosco
             </Button>

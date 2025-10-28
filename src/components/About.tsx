@@ -23,38 +23,38 @@ const About = () => {
   ];
 
   return (
-    <section id="sobre" className="py-20 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="max-w-6xl mx-auto space-y-16">
-          <div className="text-center space-y-4 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+    <section id="sobre" className="py-12 sm:py-16 lg:py-20 bg-background">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto space-y-12 sm:space-y-16">
+          <div className="text-center space-y-3 sm:space-y-4 animate-fade-in">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground px-4">
               Sobre a Sparta Solutions
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto px-4">
               Com sede em Macaé - RJ e atuação em todo o território nacional
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="space-y-6 animate-fade-in">
-              <p className="text-lg text-foreground leading-relaxed">
+          <div className="grid md:grid-cols-2 gap-6 sm:gap-8 items-center">
+            <div className="space-y-4 sm:space-y-6 animate-fade-in">
+              <p className="text-base sm:text-lg text-foreground leading-relaxed">
                 A Sparta Solutions surgiu com o propósito de entregar soluções customizadas e de alta eficiência para empresas no segmento de Óleo & Gás.
               </p>
-              <p className="text-lg text-foreground leading-relaxed">
+              <p className="text-base sm:text-lg text-foreground leading-relaxed">
                 Adquirimos expertise técnica e know-how em mais de 15 anos atuando com liderança em grandes projetos de IOCs (International Oil Company) nas atividades de controle & garantia da qualidade, em manutenções nos tubulares de perfuração e produção, ferramentas e equipamentos utilizados em poços de O&G.
               </p>
             </div>
 
-            <div className="bg-gradient-dark rounded-2xl p-8 text-center space-y-4 animate-fade-in shadow-strong">
-              <div className="text-6xl font-bold text-primary">15+</div>
-              <div className="text-xl text-white">Anos de experiência</div>
-              <div className="text-sm text-white/80">
+            <div className="bg-gradient-dark rounded-2xl p-6 sm:p-8 text-center space-y-3 sm:space-y-4 animate-fade-in shadow-strong">
+              <div className="text-5xl sm:text-6xl font-bold text-primary">15+</div>
+              <div className="text-lg sm:text-xl text-white">Anos de experiência</div>
+              <div className="text-xs sm:text-sm text-white/80">
                 Atuando em grandes projetos no setor de Óleo & Gás
               </div>
             </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {values.map((value, index) => (
               <Card
                 key={index}
