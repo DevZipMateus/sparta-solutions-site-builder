@@ -29,7 +29,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           {/* Logo e Slogan */}
           <div className="space-y-3 sm:space-y-4">
-            <img src={logoSparta} alt="Sparta Solutions" className="h-12 sm:h-16 w-auto" />
+            <div className="bg-white p-3 sm:p-4 rounded-lg inline-block">
+              <img src={logoSparta} alt="Sparta Solutions" className="h-12 sm:h-16 w-auto" />
+            </div>
             <p className="text-xs sm:text-sm leading-relaxed">
               Soluções customizadas para seu negócio.
             </p>
