@@ -78,7 +78,7 @@ const Footer = () => {
             <div className="text-xs sm:text-sm text-white/70">
               <p className="font-semibold mb-1">Horário de funcionamento:</p>
               <p>Seg a Sex: 7:30h às 17:30h</p>
-              <p>Sexta: 7:30h às 17:30h</p>
+              
             </div>
           </div>
         </div>
