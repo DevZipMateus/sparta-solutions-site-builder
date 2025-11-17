@@ -65,15 +65,6 @@ const Services = () => {
               </Card>
             ))}
           </div>
-
-          <div className="bg-gradient-dark rounded-2xl p-6 sm:p-8 md:p-12 text-center space-y-3 sm:space-y-4 animate-fade-in shadow-strong">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white">
-              Conformidade com normas internacionais
-            </h3>
-            <p className="text-white/90 text-base sm:text-lg max-w-3xl mx-auto">
-              Todos os nossos serviços seguem rigorosamente as normas DS-1, APIs e NS-2, garantindo a máxima qualidade e segurança em cada processo.
-            </p>
-          </div>
         </div>
       </div>
     </section>
