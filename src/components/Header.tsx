@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logoSparta from "@/assets/logo-sparta.png";
+import logoSparta from "@/assets/logo-sparta-new.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
