@@ -29,12 +29,8 @@ const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-6 sm:space-y-8 animate-fade-in">
           <div className="flex justify-center mb-4 sm:mb-8">
-            <img src={logoSparta} alt="Sparta Solutions" className="h-24 sm:h-32 md:h-40 w-auto" />
+            <img src={logoSparta} alt="Sparta Solutions" className="h-32 sm:h-40 md:h-52 lg:h-64 w-auto" />
           </div>
-          
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-foreground tracking-tight px-4">
-            Sparta Solutions
-          </h1>
           
           <h2 className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
             Soluções customizadas em controle e garantia da qualidade para o setor de Óleo & Gás
