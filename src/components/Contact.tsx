@@ -94,13 +94,6 @@ const Contact = () => {
               </a>
             </Button>
           </div>
-
-          <div className="bg-card border border-border rounded-2xl p-5 sm:p-6 md:p-8 animate-fade-in">
-            <div className="space-y-3 sm:space-y-4">
-              <h3 className="text-lg sm:text-xl font-bold text-foreground">CNPJ</h3>
-              <p className="text-sm sm:text-base text-muted-foreground">41.327.741/0001-69</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
