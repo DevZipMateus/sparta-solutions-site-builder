@@ -1,5 +1,5 @@
 import { Phone, Mail, MapPin } from "lucide-react";
-import logoSparta from "@/assets/logo-sparta.png";
+import logoSparta from "@/assets/logo-sparta-footer.png";
 
 const Footer = () => {
   const scrollToSection = (id: string) => {
