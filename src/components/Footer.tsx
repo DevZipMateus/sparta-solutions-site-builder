@@ -88,9 +88,7 @@ const Footer = () => {
           <p className="text-white/70">
             © {new Date().getFullYear()} Sparta Solutions. Todos os direitos reservados.
           </p>
-          <p className="text-white/50 mt-2">
-            CNPJ: 41.327.741/0001-69
-          </p>
+          
         </div>
       </div>
     </footer>;
