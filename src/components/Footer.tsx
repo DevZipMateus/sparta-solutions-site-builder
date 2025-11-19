@@ -71,8 +71,8 @@ const Footer = () => {
             <div className="flex items-start gap-2 text-xs sm:text-sm text-white/80">
               <MapPin className="h-3.5 w-3.5 sm:h-4 sm:w-4 flex-shrink-0 mt-1" />
               <div>
-                <p>Rua Franklin Delano Roosevelt, 87</p>
-                <p>Macaé - RJ</p>
+                <p>Sede administrativa: Rua Franklin Delano Roosevelt Nº 87, Sala 01</p>
+                <p>Cavaleiros, Macaé-RJ – CEP: 27920-240</p>
               </div>
             </div>
             <div className="text-xs sm:text-sm text-white/70">
