@@ -5,13 +5,13 @@ const Services = () => {
   const services = [
     {
       icon: CheckCircle2,
-      title: "Inspeções de componentes de perfuração",
-      description: "Drill Stem Elements Onshore/Offshore - Inspeções completas de componentes utilizados na coluna de perfuração.",
+      title: "Inspeção e Manutenção em Ferramentas de perfuração e pescaria.",
+      description: "Inspeção, manutenção e reparo conforme normas DS-1 & APIs.",
     },
     {
       icon: ClipboardCheck,
-      title: "Inspeções OCTG Services",
-      description: "Inspeções especializadas de componentes utilizados na coluna de produção.",
+      title: "OCTG Services",
+      description: "Inspeção, manutenção e reparo conforme normas APIs.",
     },
     {
       icon: Shield,
