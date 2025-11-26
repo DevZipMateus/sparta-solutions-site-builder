@@ -34,7 +34,7 @@ const About = () => {
               Com sede em Macaé - RJ e atuação em todo o território nacional
             </p>
             <div className="flex justify-center mt-6">
-              <p className="text-sm sm:text-base font-semibold text-primary">
+              <p className="text-base sm:text-lg font-semibold text-primary">
                 Empresa certificada - ISO 9001:2015
               </p>
             </div>
