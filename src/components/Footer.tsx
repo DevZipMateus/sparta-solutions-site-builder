@@ -39,7 +39,6 @@ const Footer = () => {
             <p className="text-xs sm:text-sm text-white/70">
               Mais de 15 anos de experiência em Óleo & Gás.
             </p>
-            <img src={isoCertificationSeal} alt="ISO 9001 Certified" className="h-16 sm:h-20 w-auto" />
           </div>
 
           {/* Links Rápidos */}
@@ -86,11 +85,13 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-white/20 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-xs sm:text-sm">
-          <p className="text-white/70">
-            © {new Date().getFullYear()} Sparta Solutions. Todos os direitos reservados.
-          </p>
-          
+        <div className="border-t border-white/20 mt-6 sm:mt-8 pt-6 sm:pt-8">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-xs sm:text-sm text-white/70 text-center sm:text-left">
+              © {new Date().getFullYear()} Sparta Solutions. Todos os direitos reservados.
+            </p>
+            <img src={isoCertificationSeal} alt="ISO 9001 Certified" className="h-12 sm:h-14 w-auto" />
+          </div>
         </div>
       </div>
     </footer>;
