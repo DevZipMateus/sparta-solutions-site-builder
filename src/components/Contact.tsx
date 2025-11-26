@@ -19,12 +19,12 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Endereço",
-      content: "Rua Franklin Delano Roosevelt, 87 - Macaé - RJ",
+      content: "Rua Franklin Delano Roosevelt, 87 Sala 01 Cavaleiros - Macaé RJ",
     },
     {
       icon: Clock,
       title: "Horário de funcionamento",
-      content: "Segunda a quinta-feira: 7:30h às 17:30h • Sexta-feira: 7:30h às 17:30h",
+      content: "Segunda a sexta: 7:30h às 17:30h",
     },
   ];
 
