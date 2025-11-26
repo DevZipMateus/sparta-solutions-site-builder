@@ -38,7 +38,7 @@ const About = () => {
               <img 
                 src={isoCertification} 
                 alt="Empresa certificada - ISO" 
-                className="h-12 sm:h-16 object-contain"
+                className="h-7 sm:h-10 object-contain"
               />
             </div>
           </div>
