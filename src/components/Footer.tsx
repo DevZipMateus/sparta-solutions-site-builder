@@ -1,5 +1,6 @@
 import { Phone, Mail, MapPin } from "lucide-react";
 import logoSparta from "@/assets/logo-sparta-footer.png";
+import isoCertificationSeal from "@/assets/iso-certification-seal.png";
 const Footer = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -38,6 +39,7 @@ const Footer = () => {
             <p className="text-xs sm:text-sm text-white/70">
               Mais de 15 anos de experiência em Óleo & Gás.
             </p>
+            <img src={isoCertificationSeal} alt="ISO 9001 Certified" className="h-16 sm:h-20 w-auto" />
           </div>
 
           {/* Links Rápidos */}
