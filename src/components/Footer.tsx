@@ -86,9 +86,9 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-white/20 mt-6 sm:mt-8 pt-6 sm:pt-8">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <img src={isoCertificationSeal} alt="ISO 9001 Certified" className="h-16 sm:h-20 w-auto" />
-            <p className="text-xs sm:text-sm text-white/70 text-center flex-1">
+          <div className="relative flex items-center justify-center gap-4">
+            <img src={isoCertificationSeal} alt="ISO 9001 Certified" className="absolute left-0 h-16 sm:h-20 w-auto" />
+            <p className="text-xs sm:text-sm text-white/70 text-center">
               © {new Date().getFullYear()} Sparta Solutions. Todos os direitos reservados.
             </p>
           </div>
