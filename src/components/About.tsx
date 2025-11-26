@@ -1,6 +1,5 @@
 import { Target, Eye, Heart } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import isoCertification from "@/assets/iso-certification.png";
 
 const About = () => {
   const values = [
@@ -35,11 +34,9 @@ const About = () => {
               Com sede em Macaé - RJ e atuação em todo o território nacional
             </p>
             <div className="flex justify-center mt-6">
-              <img 
-                src={isoCertification} 
-                alt="Empresa certificada - ISO" 
-                className="h-7 sm:h-10 object-contain"
-              />
+              <p className="text-sm sm:text-base font-semibold text-primary">
+                Empresa certificada - ISO 9001:2015
+              </p>
             </div>
           </div>
 
